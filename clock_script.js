@@ -19,11 +19,11 @@ function MyFnc () {
     const secondsRect =seconds.getBoundingClientRect();
 
     //Reposition des éléments HTML
-    hours.style.right = hoursRect.right;
+    hours.style.left = hoursRect.left;
     hours.style.bottom = hoursRect.bottom;
-    minutes.style.right = minutesRect.right;
+    minutes.style.left = minutesRect.left;
     minutes.style.bottom = minutesRect.bottom;
-    seconds.style.right = secondsRect.right;
+    seconds.style.left = secondsRect.left;
     seconds.style.bottom = secondsRect.bottom;
     
 }
