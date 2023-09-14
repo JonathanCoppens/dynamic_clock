@@ -1,0 +1,45 @@
+body {
+ text-align: center;
+ font-family:'Big Shoulders Stencil Text', cursive;
+}
+
+fieldset {
+    border-radius: 15px;
+    display: flex;
+    /* background: radial-gradient(circle, rgba(182,255,0,1) 0%, rgba(33,185,103,0.8335667030484069) 50%, rgba(30,99,206,1) 100%); */
+    background: radial-gradient(circle, rgba(0,0,0,1) 65%, rgba(253,9,3,1) 100%); 
+}
+
+legend{
+    text-decoration: underline 1px;
+    font-weight: 700;
+    font-size: xx-large;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.clock-day-date-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#clock {
+    margin:auto;
+}
+
+#hours, #minutes, #seconds {
+    font-family:'Big Shoulders Stencil Text', cursive;
+    font-size: xx-large ;
+    color: white;
+}
+
+#today {
+   font-family: 'Halleluja', cursive;
+   text-decoration: underline 1px;
+   display: flex;
+   transition: 'all 0.5s ease-in-out';
+   justify-content: end;
+   width: 100%;
+   color: white;
+}
